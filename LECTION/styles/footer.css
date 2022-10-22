@@ -1,0 +1,28 @@
+.footer {
+    background-color: #162044;
+    display: flex;
+    height: 120px;
+    padding: 50px 0px;
+    color: #ffffff;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer .social {
+    display: flex;
+    gap: 40px;
+
+}
+
+.footer .condition {
+    display: flex;
+    gap: 24px;
+
+}
+
+.footer .condition> *,.footer__rigth {
+    font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #CCD2E9;
+}

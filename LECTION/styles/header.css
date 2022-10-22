@@ -1,0 +1,37 @@
+.header {
+     background-color: #070E27; 
+     display: flex;
+     justify-content: space-between;
+     align-items:flex-end;
+  
+}
+
+.header .header__logo {
+    width: 160px;
+    align-self: baseline;
+    padding: 10px;
+}
+
+.header .top-nav {
+    margin-bottom: 10px;
+}
+
+.header .top-nav .list {
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 26px;
+    
+}
+
+.header .top-nav .list .top-nav__item {
+    list-style: none;
+}
+
+.top-nav__link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+}

@@ -1,0 +1,120 @@
+#pricing {
+    color: #ffffff;
+    font-family: 'Sora';
+   font-style: normal;
+}
+
+#pricing.section .section__title {
+    margin-bottom: 90px;
+}
+
+#pricing .p-c-container {
+    width: calc(100% - 2 * 80px);
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    height: 711px;
+    align-items: flex-end;
+    margin-bottom: 172px;
+   
+
+}
+
+#pricing .p-c-container .pricing-card {
+    padding: 48px;
+    width: calc(100% - 80px / 3);
+    background: #081131;
+box-shadow: 0px 35px 45px rgba(7, 14, 39, 0.05);
+border-radius: 16px;
+transition: all 300ms ease-in-out;
+
+}
+
+#pricing .p-c-container .pricing-card:nth-child(2) {
+    align-self: baseline;
+}
+
+#pricing .p-c-container .pricing-card:hover {
+    background-color: #162044;
+}
+
+#pricing .p-c-container .pricing-card .price .price__sub-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #7E8BB6;
+    margin-bottom: 12px;
+    
+}
+
+#pricing .p-c-container .pricing-card .price .price__sub-ammout {
+    font-weight: 600;
+font-size: 56px;
+line-height: 64px;
+letter-spacing: -0.04em;
+color: #4E5A85;
+margin-bottom: 48px;
+}
+
+#pricing .p-c-container .pricing-card .pc-line {
+    background: #4E5A85;
+opacity: 0.16;
+border-radius: 16px;
+height: 2px;
+margin-bottom: 48px;
+}
+
+#pricing .p-c-container .pricing-card .pricing-card-list .list-wrapper  {
+ display: flex;
+ gap: 12px;
+ margin-bottom: 24px;
+}
+
+
+#pricing .p-c-container .pricing-card .pricing-card-list .list-wrapper:last-child {
+    margin-bottom: 48px;
+}
+
+
+#pricing .p-c-container .pricing-card .pricing-card-list .pc-item {
+   grid-area: item;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.01em;
+color: #CCD2E9;
+}
+
+#pricing .pricing-trial {
+    width: calc(100% - 2 * 90px);
+    margin: 132px auto;
+    background-color: #0059F7;
+    display: flex;
+    border-radius: 24px;
+    height: 176px;
+    padding: 52px 56px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pricing .pricing-trial .p-t-text .p-t-text__sub-title {
+    font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+opacity: 0.5;
+margin-bottom: 16px;
+}
+
+
+#pricing .pricing-trial .p-t-text .p-t-text__title {
+ font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: -0.03em;
+}
+
+

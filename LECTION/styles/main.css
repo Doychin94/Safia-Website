@@ -1,0 +1,80 @@
+body {
+    background-color:#070E27
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #070E27; 
+
+}
+
+:root {
+    --clr-primary : #001A57;
+    --clr-primary-1 : #00308F;
+    --clr-primary-2 :  #0059F7;
+    --clr-primary-3 :  #689EFF; 
+    --clr-primary-4 : rgba(0, 89, 247, 0.16);
+
+    --clr-secondary : #66240A;
+    --clr-secondary-1 : #C34B1E;
+    --clr-secondary-2 : #F9724D;
+    --clr-secondary-3 :  #FBB6AB;
+    --clr-secondary-4 :#FEF1EF;
+
+    --clr-neutral : #070E27;
+    --clr-neutral-1 : #081131;
+    --clr-neutral-2 :  #162044;
+    --clr-neutral-3 : #4E5A85;
+    --clr-neutral-4 : #7E8BB6;
+    --clr-neutral-5 :  #CCD2E9;
+    --clr-neutral-6 :  #F4F7FF;
+}
+  
+
+
+h1 {
+  font-weight: 600;
+  font-size: 56px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+h3 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+h5 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section .section__sub-title {
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #7E8BB6;
+margin-bottom: 8px;
+}
+
+.section .section__title {
+  font-family: 'Sora';
+font-style: normal;
+font-weight: 600;
+text-align: center;
+letter-spacing: -0.03em;
+}

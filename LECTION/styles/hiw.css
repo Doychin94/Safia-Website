@@ -1,0 +1,43 @@
+#hiw {
+    color: #ffffff;
+    margin-bottom: 170px;
+}
+
+#hiw .hiw-row {
+    width: calc(100% - 2 * 190px);
+    margin: 96px auto;
+    display: flex;
+    gap: 110px;
+    align-items: center;
+}
+
+#hiw .hiw-row:last-child {
+    margin-bottom: 0px;
+}
+
+#hiw .hiw-row .hiw-text .hiw-text__title {
+ font-family: 'Sora';
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: -0.03em;
+margin-bottom: 16px;
+}
+
+#hiw .hiw-row .hiw-text .hiw-text__desc {
+ font-family: 'Sora';
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: -0.02em;
+color: #7E8BB6;
+}
+
+#hiw .hiw-row .hiw-row__img {
+    transition: all 400ms ease-in-out;
+}
+
+#hiw .hiw-row .hiw-row__img:hover {
+    transform: scale(1.2) rotate(10deg);
+}

@@ -1,0 +1,65 @@
+.btn {
+    border-radius: 8px;
+    border: none;
+    padding: 16px 24px;
+    background-color: #7E8BB6;
+    color: white;
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+ background-color: white;
+ color: #7E8BB6;
+}
+
+.btn.btn-primary {
+    background: #0059F7;
+    color: white;
+    width: 188px;
+}
+
+.btn.btn-primary:hover {
+    background-color: white;
+    color: #0059F7;
+}
+
+
+#features .trial .wrapper .wrapper__btn,.p-t__button {
+    position: relative;
+    width: 178px;
+    height: 64px;
+    background: #689eff;
+    padding: 20px 24px;
+  }
+
+  .price__btn {
+    position: relative;
+    width: 178px;
+    height: 64px;
+    padding: 20px 24px;
+  }
+  
+  #features .trial .wrapper .wrapper__btn span,.price__btn span,.p-t__button span{
+      position: absolute;
+      top: 20px;
+      left: 24px;
+  }
+  
+  #features .trial .wrapper .wrapper__btn>img,.price__btn img,.p-t__button img {
+      position: absolute;
+      top: 25px;
+      right: 43px;
+  }
+
+  #features .trial .wrapper .wrapper__btn:hover,.price__btn:hover,.p-t__button:hover {
+    background-color:#D73222;
+    color: #ffffff;
+  }
+
+
+  
+
+
+
+  
